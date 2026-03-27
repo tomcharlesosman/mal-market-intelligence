@@ -1,0 +1,231 @@
+{
+  "artifactType": "website-proof-points",
+  "asOfDate": "2026-03-27",
+  "market": "Mallorca, Spain",
+  "scope": {
+    "primaryGeographies": [
+      "Palma",
+      "Southwest corridor"
+    ],
+    "southwestCorridorExamples": [
+      "Bendinat",
+      "Portals",
+      "Port d'Andratx",
+      "Santa Ponsa"
+    ]
+  },
+  "workflow": {
+    "intendedTool": "Firecrawl",
+    "toolStatus": "blocked_in_runtime",
+    "fallback": "Direct shell-based retrieval of public pages and PDFs",
+    "blocker": "Neither `firecrawl` nor `npx firecrawl` was available in the runtime."
+  },
+  "targetBuyerPainPoints": [
+    {
+      "id": "tight_supply_requires_faster_awareness",
+      "statement": "Agents and acquisition teams need faster awareness because constrained supply leaves buyers with fewer options and supports higher prices.",
+      "evidenceRefs": [
+        "spi_supply_q4_2025",
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "micro_market_differences_matter",
+      "statement": "Palma and the southwest cannot be treated as one market; buyer guidance depends on corridor-level and neighborhood-level differences.",
+      "evidenceRefs": [
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "international_demand_competes_for_the_same_stock",
+      "statement": "Cross-border demand remains material, so local teams compete in a market shaped by international buyers, not just domestic demand.",
+      "evidenceRefs": [
+        "ev_h1_2025_spi",
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "policy_noise_needs_filtering",
+      "statement": "Teams need signal over noise because political headlines about foreign-buyer restrictions can confuse clients even when the legal framework has not changed.",
+      "evidenceRefs": [
+        "spi_ban_theatrics"
+      ]
+    }
+  ],
+  "validatedProofPoints": [
+    {
+      "id": "pp_supply_tightness",
+      "claim": "Supply pressure is real, so weekly listing-change visibility is valuable.",
+      "support": [
+        "Spanish Property Insight reported that homes for sale in Spain fell 11% year over year in Q4 2025, citing Idealista as the source.",
+        "Knight Frank described Mallorca supply as tight and demand as deep in its 2026 residential market insight."
+      ],
+      "geographyFit": "National backdrop plus Mallorca-specific confirmation",
+      "copyUse": "Strong website claim if phrased as a market backdrop rather than a Palma-only statistic.",
+      "evidenceRefs": [
+        "spi_supply_q4_2025",
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "pp_southwest_blue_chip",
+      "claim": "The southwest corridor remains Mallorca's blue-chip acquisition zone.",
+      "support": [
+        "Knight Frank says the southwest, from Port d'Andratx to Bendinat and Portals, retains blue-chip status.",
+        "Knight Frank notes sea-view villas in that corridor can exceed €15 million."
+      ],
+      "geographyFit": "Directly relevant to the stated wedge",
+      "copyUse": "Strong website claim for audience fit and market focus.",
+      "evidenceRefs": [
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "pp_international_demand",
+      "claim": "Mallorca remains an internationally competed market, especially in premium segments.",
+      "support": [
+        "Spanish Property Insight summarized the Engel & Volkers H1 2025 update: overseas purchasers accounted for 28% of all Balearic transactions.",
+        "Knight Frank reports foreign demand on Mallorca is nearly double 2010 levels and says German and British buyers still dominate while the nationality mix diversifies."
+      ],
+      "geographyFit": "Balearics-wide with Mallorca-specific reinforcement",
+      "copyUse": "Use to explain why acquisition teams need faster, evidence-backed workflows.",
+      "evidenceRefs": [
+        "ev_h1_2025_spi",
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "pp_growth_and_resilience",
+      "claim": "The market is resilient rather than distressed, which raises the value of monitoring price moves and scarce opportunities.",
+      "support": [
+        "Spanish Property Insight summarized over 7,300 Balearic home sales in H1 2025, slightly above the ten-year average.",
+        "Knight Frank says prime values on Mallorca rose around 3% in the last 12 months and forecasts roughly 2% to 4% growth in 2026."
+      ],
+      "geographyFit": "Balearics-wide with Mallorca prime-market outlook",
+      "copyUse": "Good support for 'don't miss inventory and price cuts' messaging; avoid implying broad distress."
+      ,
+      "evidenceRefs": [
+        "ev_h1_2025_spi",
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "pp_existing_product_outputs",
+      "claim": "The current product slice already turns listings into structured supply, pricing, and comparable outputs with audit trails.",
+      "support": [
+        "The local CLI produced normalized listings, municipality medians, cohort summaries, comparable sets, raw-record paths, and SHA-256 audit traces on 2026-03-27."
+      ],
+      "geographyFit": "Internal product proof, not external market proof",
+      "copyUse": "Use for product-proof screenshots or UI captions, not as a live-coverage claim."
+      ,
+      "evidenceRefs": [
+        "internal_fixture_report_2026_03_27"
+      ]
+    }
+  ],
+  "marketExamples": [
+    {
+      "id": "palma_connectivity_and_year_round_living",
+      "label": "Palma signal",
+      "summary": "Palma benefits from major infrastructure and connectivity investment that supports year-round demand.",
+      "details": [
+        "Knight Frank cites a €550 million airport expansion.",
+        "The report says Mallorca has links to 166 destinations served by 52 airlines.",
+        "The same source highlights Palma waterfront regeneration and Club de Mar upgrades."
+      ],
+      "evidenceRefs": [
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "southwest_pricing_premium",
+      "label": "Southwest corridor signal",
+      "summary": "The southwest remains premium and supply-constrained, with pricing well above emerging value pockets elsewhere on the island.",
+      "details": [
+        "Knight Frank says the southwest from Port d'Andratx to Bendinat and Portals remains blue-chip.",
+        "Sea-view villas in the southwest can surpass €15 million.",
+        "The report contrasts this with east-coast villas around €6 million to €6.5 million, roughly half southwest pricing."
+      ],
+      "evidenceRefs": [
+        "knight_frank_2026"
+      ]
+    },
+    {
+      "id": "calvia_internal_slice",
+      "label": "Current internal southwest-style output",
+      "summary": "The internal product slice already produces municipality and comp outputs that can be shown on the website, albeit from a fixture rather than a live feed.",
+      "details": [
+        "The local report generated a Calvia sale-villa cohort median asking price of €2.35 million.",
+        "The same run linked a Santa Ponsa villa against Palma comparables with raw-record traceability."
+      ],
+      "evidenceRefs": [
+        "internal_fixture_report_2026_03_27"
+      ]
+    }
+  ],
+  "copyCaveats": [
+    {
+      "id": "caveat_do_not_claim_live_coverage",
+      "statement": "Do not claim comprehensive live Mallorca coverage yet. The current local product proof is fixture-based, not a live source crawl."
+    },
+    {
+      "id": "caveat_keep_balearic_stats_labeled",
+      "statement": "Label Balearic-wide or Spain-wide statistics clearly. Do not present them as Palma-only or southwest-only figures."
+    },
+    {
+      "id": "caveat_avoid_crash_language",
+      "statement": "Avoid crisis or distress framing. The evidence points to resilient pricing, tight supply, and selective scarcity rather than broad market weakness."
+    },
+    {
+      "id": "caveat_policy_noise",
+      "statement": "Avoid suggesting foreign-buyer restrictions are active policy. The March 4, 2026 Balearic proposal failed and the legal framework did not change."
+    }
+  ],
+  "sources": [
+    {
+      "id": "knight_frank_2026",
+      "title": "Mallorca Residential Market Insight 2026",
+      "publisher": "Knight Frank",
+      "date": "2026",
+      "url": "https://www.knightfrank.co.uk/site-assets/research/report-pdfs/mallorca-residential-market-insight/mallorca-insight-2025_final-singles.pdf",
+      "quality": "high",
+      "notes": "Primary market report PDF with Mallorca-specific prime-market detail."
+    },
+    {
+      "id": "ev_h1_2025_spi",
+      "title": "Balearic market update (H1) from Engel & Volkers",
+      "publisher": "Spanish Property Insight summarizing Engel & Volkers",
+      "date": "2025-10-07",
+      "url": "https://www.spanishpropertyinsight.com/2025/10/07/evm-h1-balearic-market-update/",
+      "quality": "medium",
+      "notes": "Secondary summary citing E&V and official data; useful for Balearic transaction and buyer-mix figures."
+    },
+    {
+      "id": "spi_supply_q4_2025",
+      "title": "Prices rise as supply of homes for sale shrinks across most areas",
+      "publisher": "Spanish Property Insight citing Idealista",
+      "date": "2026-03-23",
+      "url": "https://www.spanishpropertyinsight.com/2026/03/23/prices-rise-as-supply-of-homes-for-sale-shrinks-across-most-areas/",
+      "quality": "medium",
+      "notes": "Secondary article citing Idealista; strong for national supply-tightness backdrop."
+    },
+    {
+      "id": "spi_ban_theatrics",
+      "title": "Balearic proposal to \"ban\" non-resident buyers was just attention-grabbing theatrics",
+      "publisher": "Spanish Property Insight",
+      "date": "2026-03-04",
+      "url": "https://www.spanishpropertyinsight.com/2026/03/04/balearic-proposal-to-ban-non-resident-buyers-just-theatrics/",
+      "quality": "medium",
+      "notes": "Useful policy caveat source; not a core demand or pricing source."
+    },
+    {
+      "id": "internal_fixture_report_2026_03_27",
+      "title": "Local report-latest output from fixture ingestion",
+      "publisher": "Internal project workspace",
+      "date": "2026-03-27",
+      "url": "local:src/cli.ts report-latest --json",
+      "quality": "internal",
+      "notes": "Product proof only. Not a public live-market source."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "mal-market-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:site": "tsx src/cli.ts build-website",
+    "dev": "tsx src/cli.ts",
+    "ingest:idealista": "tsx src/cli.ts ingest-idealista-fixture",
+    "ingest:sample": "tsx src/cli.ts ingest-idealista-fixture",
+    "preview:site": "python3 -m http.server 4173 --directory dist/site",
+    "report:latest": "tsx src/cli.ts report-latest",
+    "report:sample": "tsx src/cli.ts report-latest",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

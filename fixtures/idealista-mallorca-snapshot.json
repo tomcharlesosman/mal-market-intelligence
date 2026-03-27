@@ -1,0 +1,95 @@
+{
+  "source": "idealista",
+  "capturedAt": "2026-03-26T08:00:00.000Z",
+  "searchUrl": "https://www.idealista.com/en/venta-viviendas/balears-illes/mallorca/",
+  "listings": [
+    {
+      "propertyCode": "PALMA-001",
+      "url": "https://www.idealista.com/en/inmueble/PALMA-001/",
+      "title": "Sea-view apartment in Portixol",
+      "operation": "sale",
+      "propertyType": "flat",
+      "price": {
+        "amount": 950000,
+        "currency": "EUR"
+      },
+      "location": {
+        "municipality": "Palma",
+        "neighborhood": "Portixol",
+        "coordinates": {
+          "latitude": 39.5638,
+          "longitude": 2.6699
+        }
+      },
+      "features": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "builtAreaSqm": 118
+      }
+    },
+    {
+      "propertyCode": "CALVIA-002",
+      "url": "https://www.idealista.com/en/inmueble/CALVIA-002/",
+      "title": "Hillside villa in Santa Ponsa",
+      "operation": "sale",
+      "propertyType": "villa",
+      "price": {
+        "amount": 2350000,
+        "currency": "EUR"
+      },
+      "location": {
+        "municipality": "Calvia",
+        "neighborhood": "Santa Ponsa",
+        "coordinates": {
+          "latitude": 39.5058,
+          "longitude": 2.4761
+        }
+      },
+      "features": {
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "builtAreaSqm": 312,
+        "lotAreaSqm": 910
+      }
+    },
+    {
+      "propertyCode": "PALMA-003",
+      "url": "https://www.idealista.com/en/inmueble/PALMA-003/",
+      "title": "Renovated townhouse in Santa Catalina",
+      "operation": "sale",
+      "propertyType": "townhouse",
+      "price": {
+        "amount": 1250000,
+        "currency": "EUR"
+      },
+      "location": {
+        "municipality": "Palma",
+        "neighborhood": "Santa Catalina",
+        "coordinates": {
+          "latitude": 39.5717,
+          "longitude": 2.6353
+        }
+      },
+      "features": {
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "builtAreaSqm": 186
+      }
+    },
+    {
+      "propertyCode": "SENCELLES-004",
+      "url": "https://www.idealista.com/en/inmueble/SENCELLES-004/",
+      "title": "Country house with unfinished pricing",
+      "operation": "sale",
+      "propertyType": "finca_rustica",
+      "location": {
+        "municipality": "Sencelles"
+      },
+      "features": {
+        "bedrooms": 6,
+        "builtAreaSqm": 280,
+        "lotAreaSqm": 12000
+      }
+    }
+  ]
+}
