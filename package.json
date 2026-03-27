@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:site": "tsx src/cli.ts build-website",
+    "build:site:pages": "MAL_SITE_OUTPUT_DIR=docs tsx src/cli.ts build-website",
     "dev": "tsx src/cli.ts",
     "ingest:idealista": "tsx src/cli.ts ingest-idealista-fixture",
     "ingest:sample": "tsx src/cli.ts ingest-idealista-fixture",

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-03-27T08:40:24.311Z",
+  "hero": {
+    "eyebrow": "Mallorca acquisition radar",
+    "headline": "Track Palma and the southwest corridor before the portals turn into noise.",
+    "subhead": "MAL gives boutique buyer's agents and lean acquisition teams one evidence-backed view of premium-resale supply, pricing, and comparable context across Mallorca.",
+    "proofNote": "Current proof comes from the latest audited Mallorca sample run. The page is explicit about source coverage instead of pretending the crawl is already exhaustive."
+  },
+  "problemStatements": [
+    "Portal tabs hide the market shape. Teams still jump across fragmented listing sources just to see what appeared this week.",
+    "Pricing context arrives late. By the time agents rebuild comps manually, the best inventory has already moved.",
+    "Audit trails disappear in spreadsheets. When a buyer asks where a number came from, the proof path is usually gone."
+  ],
+  "solutionStatements": [
+    "One Mallorca-specific workflow for source capture, normalization, and operator-ready market evidence.",
+    "Cohort medians expose supply and pricing by municipality, operation, and property type instead of one blended average.",
+    "Comparable views keep each listing tied to its raw record path and snapshot hash so the evidence chain stays inspectable."
+  ],
+  "run": {
+    "runId": "idealista-2026-03-26T23-33-41-572Z",
+    "source": "idealista",
+    "capturedAt": "2026-03-26T08:00:00.000Z",
+    "searchUrl": "https://www.idealista.com/en/venta-viviendas/balears-illes/mallorca/",
+    "sourceSnapshotPath": "runs/idealista-2026-03-26T23-33-41-572Z/source-snapshot.json",
+    "sourceSnapshotSha256": "e5a5a6a981c56e878d5304cfba1ccf48024437c2a1b03ceeec9c3144c4716645",
+    "manifestPath": "runs/idealista-2026-03-26T23-33-41-572Z/manifest.json",
+    "normalizedPath": "runs/idealista-2026-03-26T23-33-41-572Z/normalized/listings.ndjson",
+    "auditPath": "runs/idealista-2026-03-26T23-33-41-572Z/audit.ndjson",
+    "rawRecordCount": 4,
+    "normalizedRecordCount": 3,
+    "skippedRecordCount": 1
+  },
+  "metrics": [
+    {
+      "label": "Current audited coverage",
+      "value": "3 listings",
+      "detail": "Latest Mallorca sample captured 26 Mar 2026 from idealista."
+    },
+    {
+      "label": "Median asking price",
+      "value": "€1,250,000",
+      "detail": "Across the current audited sale sample."
+    },
+    {
+      "label": "Median asking price per sqm",
+      "value": "€7,532",
+      "detail": "Useful when Palma apartments and southwest villas sit in the same conversation."
+    },
+    {
+      "label": "Rejected records",
+      "value": "1 skipped",
+      "detail": "Incomplete source rows are retained in the audit trail instead of silently dropped."
+    }
+  ],
+  "municipalitySnapshots": [
+    {
+      "municipality": "Calvia",
+      "listingCount": 1,
+      "medianAskingPriceEur": 2350000,
+      "medianAskingPricePerSqmEur": 7532.05
+    },
+    {
+      "municipality": "Palma",
+      "listingCount": 2,
+      "medianAskingPriceEur": 1100000,
+      "medianAskingPricePerSqmEur": 7385.64
+    }
+  ],
+  "spotlightListings": [
+    {
+      "listingId": "idealista:CALVIA-002",
+      "title": "Hillside villa in Santa Ponsa",
+      "municipality": "Calvia",
+      "neighborhood": "Santa Ponsa",
+      "operation": "sale",
+      "propertyType": "villa",
+      "askingPriceEur": 2350000,
+      "askingPricePerSqmEur": 7532.05,
+      "builtAreaSqm": 312,
+      "bedrooms": 5,
+      "listingUrl": "https://www.idealista.com/en/inmueble/CALVIA-002/",
+      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/CALVIA-002-ffc43334.json",
+      "rawRecordSha256": "ffc43334fad8fc16911a43e33ed6c9cdba326dcc4751e6f7d5c6e8156b6b09b6"
+    },
+    {
+      "listingId": "idealista:PALMA-003",
+      "title": "Renovated townhouse in Santa Catalina",
+      "municipality": "Palma",
+      "neighborhood": "Santa Catalina",
+      "operation": "sale",
+      "propertyType": "townhouse",
+      "askingPriceEur": 1250000,
+      "askingPricePerSqmEur": 6720.43,
+      "builtAreaSqm": 186,
+      "bedrooms": 4,
+      "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-003/",
+      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-003-8c510fac.json",
+      "rawRecordSha256": "8c510fac7582c1945070051304fd6a984cdd814949967b8e9ced6d7996f21c4b"
+    },
+    {
+      "listingId": "idealista:PALMA-001",
+      "title": "Sea-view apartment in Portixol",
+      "municipality": "Palma",
+      "neighborhood": "Portixol",
+      "operation": "sale",
+      "propertyType": "apartment",
+      "askingPriceEur": 950000,
+      "askingPricePerSqmEur": 8050.85,
+      "builtAreaSqm": 118,
+      "bedrooms": 3,
+      "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-001/",
+      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-001-81b83723.json",
+      "rawRecordSha256": "81b83723eff4cc1ace4c13cab09178b9a67d45ae5c33ba4ac4ba6e6d3b60f7f1"
+    }
+  ],
+  "comparableExample": {
+    "subject": {
+      "listingId": "idealista:PALMA-001",
+      "title": "Sea-view apartment in Portixol",
+      "municipality": "Palma",
+      "neighborhood": "Portixol",
+      "operation": "sale",
+      "propertyType": "apartment",
+      "askingPriceEur": 950000,
+      "askingPricePerSqmEur": 8050.85,
+      "builtAreaSqm": 118,
+      "bedrooms": 3,
+      "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-001/",
+      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-001-81b83723.json",
+      "rawRecordSha256": "81b83723eff4cc1ace4c13cab09178b9a67d45ae5c33ba4ac4ba6e6d3b60f7f1"
+    },
+    "comparables": [
+      {
+        "listingId": "idealista:PALMA-003",
+        "title": "Renovated townhouse in Santa Catalina",
+        "municipality": "Palma",
+        "neighborhood": "Santa Catalina",
+        "operation": "sale",
+        "propertyType": "townhouse",
+        "askingPriceEur": 1250000,
+        "askingPricePerSqmEur": 6720.43,
+        "builtAreaSqm": 186,
+        "bedrooms": 4,
+        "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-003/",
+        "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-003-8c510fac.json",
+        "rawRecordSha256": "8c510fac7582c1945070051304fd6a984cdd814949967b8e9ced6d7996f21c4b",
+        "similarityScore": 75.35,
+        "pricePerSqmDeltaPct": 16.53,
+        "builtAreaDeltaPct": 57.63,
+        "sameMunicipality": true,
+        "sameNeighborhood": false,
+        "samePropertyType": false
+      },
+      {
+        "listingId": "idealista:CALVIA-002",
+        "title": "Hillside villa in Santa Ponsa",
+        "municipality": "Calvia",
+        "neighborhood": "Santa Ponsa",
+        "operation": "sale",
+        "propertyType": "villa",
+        "askingPriceEur": 2350000,
+        "askingPricePerSqmEur": 7532.05,
+        "builtAreaSqm": 312,
+        "bedrooms": 5,
+        "listingUrl": "https://www.idealista.com/en/inmueble/CALVIA-002/",
+        "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/CALVIA-002-ffc43334.json",
+        "rawRecordSha256": "ffc43334fad8fc16911a43e33ed6c9cdba326dcc4751e6f7d5c6e8156b6b09b6",
+        "similarityScore": 158.64,
+        "pricePerSqmDeltaPct": 6.44,
+        "builtAreaDeltaPct": 164.41,
+        "sameMunicipality": false,
+        "sameNeighborhood": false,
+        "samePropertyType": false
+      }
+    ]
+  },
+  "workflow": [
+    {
+      "step": "01",
+      "title": "Capture the source snapshot",
+      "description": "Each run stores the exact source snapshot, manifest, and audit log before any downstream interpretation happens."
+    },
+    {
+      "step": "02",
+      "title": "Normalize into Mallorca market records",
+      "description": "Listings are reshaped into a stable contract with municipality, property type, pricing, surface area, and raw-record provenance."
+    },
+    {
+      "step": "03",
+      "title": "Review supply, medians, and comps",
+      "description": "Operators get a compact weekly brief with cohort pricing and comparable views instead of another spreadsheet tab farm."
+    }
+  ],
+  "cta": {
+    "label": "Request the Mallorca brief",
+    "href": "mailto:tomcharlesosman@gmail.com?subject=MAL%20Mallorca%20private%20access",
+    "note": "Request a private walkthrough of the current Palma and southwest-corridor intelligence slice."
+  }
+}

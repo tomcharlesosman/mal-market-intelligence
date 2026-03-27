@@ -71,16 +71,25 @@ MAL_SITE_CTA_URL="mailto:team@example.com?subject=Mallorca%20radar" npm run buil
 
 ## Durable publish flow
 
-The current durable default is GitHub Pages backed by this repo. The workflow in `.github/workflows/pages.yml` rebuilds the site on pushes to `main` and publishes `dist/site/` to a public Pages URL.
+The current durable default is GitHub Pages serving the tracked `docs/` directory from `main`. This keeps hosting tied to the repo and avoids CI token requirements or another hosting account.
 
-1. Create or connect the GitHub repo for this workspace.
-2. Set GitHub Actions repository variables `MAL_SITE_CTA_URL` and `MAL_SITE_CTA_LABEL`.
-3. Push `main`.
-4. Let the Pages workflow publish the generated site.
+1. Set `MAL_SITE_CTA_URL` and `MAL_SITE_CTA_LABEL`.
+2. Rebuild the site into `docs/`.
+3. Commit and push `main`.
+4. Configure GitHub Pages to serve from `main` and `/docs`.
+
+```bash
+export MAL_SITE_CTA_URL="mailto:team@example.com?subject=MAL%20Mallorca%20brief"
+export MAL_SITE_CTA_LABEL="Request the Mallorca brief"
+npm run build:site:pages
+git add docs
+git commit -m "Refresh published landing page"
+git push origin main
+```
 
 Operational notes:
 
-- The workflow uses the same `MAL_SITE_CTA_URL` and `MAL_SITE_CTA_LABEL` names as local builds.
+- `build:site:pages` uses the same CTA env names as the local build and writes the published artifact set into `docs/`.
 - GitHub Pages is the first managed path because it keeps hosting tied to the repo and stays up without an operator-held tunnel.
 - The temporary localhost preview flow below still exists for fast manual checks before a push.
 
