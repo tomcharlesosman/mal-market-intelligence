@@ -28,7 +28,7 @@ afterEach(async () => {
 });
 
 describe("buildMarketingSite", () => {
-  it("builds a static landing page and proof snapshot from the latest auditable run", async () => {
+  it("builds a React-rendered static website and proof snapshot from the latest auditable run", async () => {
     const dataRoot = await createTempDir();
     const outputDir = await createTempDir();
     const runtimeConfig = resolveConfig({
@@ -57,10 +57,15 @@ describe("buildMarketingSite", () => {
     expect(latestManifest.runId).toBe(result.snapshot.run.runId);
     expect(proofSnapshot.spotlightListings).toHaveLength(3);
     expect(proofSnapshot.comparableExample.comparables).toHaveLength(2);
+    expect(html).toContain('content="MAL React + TypeScript static renderer"');
     expect(html).toContain("Mallorca acquisition radar");
+    expect(html).toContain('id="product-proof"');
     expect(html).toContain("Sea-view apartment in Portixol");
     expect(html).toContain("Book the walkthrough");
     expect(html).toContain(result.snapshot.run.runId);
-    expect(css).toContain(".hero");
+    expect(css).toContain(".hero-stage");
+    expect(css).toContain("@media (prefers-reduced-motion: reduce)");
+    expect(css).toContain("scroll-behavior: auto;");
+    expect(css).toContain(".listing-row:hover");
   });
 });

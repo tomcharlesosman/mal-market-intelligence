@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T08:40:24.311Z",
+  "generatedAt": "2026-03-28T19:22:34.504Z",
   "hero": {
     "eyebrow": "Mallorca acquisition radar",
     "headline": "Track Palma and the southwest corridor before the portals turn into noise.",
@@ -7,14 +7,14 @@
     "proofNote": "Current proof comes from the latest audited Mallorca sample run. The page is explicit about source coverage instead of pretending the crawl is already exhaustive."
   },
   "problemStatements": [
-    "Portal tabs hide the market shape. Teams still jump across fragmented listing sources just to see what appeared this week.",
-    "Pricing context arrives late. By the time agents rebuild comps manually, the best inventory has already moved.",
-    "Audit trails disappear in spreadsheets. When a buyer asks where a number came from, the proof path is usually gone."
+    "Portal tabs flatten high-value stock into a feed. Teams lose the shape of Palma and the southwest corridor the moment sourcing becomes routine.",
+    "Comparable work arrives too late. By the time a buyer asks for pricing context, the best inventory has already been explained with guesswork.",
+    "Spreadsheet summaries erase provenance. When somebody challenges a number, the source path is rarely still attached."
   ],
   "solutionStatements": [
-    "One Mallorca-specific workflow for source capture, normalization, and operator-ready market evidence.",
-    "Cohort medians expose supply and pricing by municipality, operation, and property type instead of one blended average.",
-    "Comparable views keep each listing tied to its raw record path and snapshot hash so the evidence chain stays inspectable."
+    "One Mallorca-specific workflow turns source capture, normalization, and proof into a weekly acquisition brief instead of another watchlist.",
+    "Municipality medians expose pricing by place and property type, so Palma apartments and southwest villas stop living inside one blended average.",
+    "Comparable views keep every listing tied to its raw record path and snapshot hash, so pricing conversations stay inspectable."
   ],
   "run": {
     "runId": "idealista-2026-03-26T23-33-41-572Z",
@@ -194,6 +194,6 @@
   "cta": {
     "label": "Request the Mallorca brief",
     "href": "mailto:tomcharlesosman@gmail.com?subject=MAL%20Mallorca%20private%20access",
-    "note": "Request a private walkthrough of the current Palma and southwest-corridor intelligence slice."
+    "note": "Before publishing, replace the default example inbox by setting MAL_SITE_CTA_URL."
   }
 }

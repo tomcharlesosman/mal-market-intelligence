@@ -1,4 +1,4 @@
-:root {
+export const marketingSiteCss = `:root {
   --ink: #12100d;
   --ink-strong: #080706;
   --paper: #e7dcc8;
@@ -1489,4 +1489,4 @@ h3 {
   .hero-brand {
     font-size: clamp(5.8rem, 24vw, 8.8rem);
   }
-}
+}`;
