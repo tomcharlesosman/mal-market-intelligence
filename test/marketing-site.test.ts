@@ -62,10 +62,15 @@ describe("buildMarketingSite", () => {
     expect(html).toContain('id="product-proof"');
     expect(html).toContain("Sea-view apartment in Portixol");
     expect(html).toContain("Book the walkthrough");
+    expect(html).toContain("Field dossier");
+    expect(html).toContain('class="hero-board"');
     expect(html).toContain(result.snapshot.run.runId);
-    expect(css).toContain(".hero-stage");
+    expect(css).toContain(".hero-board");
+    expect(css).toContain(".process-row");
     expect(css).toContain("@media (prefers-reduced-motion: reduce)");
     expect(css).toContain("scroll-behavior: auto;");
     expect(css).toContain(".listing-row:hover");
+    expect(css).not.toContain(".hero-stage");
+    expect(css).not.toContain(".cta-panel");
   });
 });

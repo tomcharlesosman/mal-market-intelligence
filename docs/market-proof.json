@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T19:22:34.504Z",
+  "generatedAt": "2026-03-28T20:54:05.517Z",
   "hero": {
     "eyebrow": "Mallorca acquisition radar",
     "headline": "Track Palma and the southwest corridor before the portals turn into noise.",
@@ -17,15 +17,15 @@
     "Comparable views keep every listing tied to its raw record path and snapshot hash, so pricing conversations stay inspectable."
   ],
   "run": {
-    "runId": "idealista-2026-03-26T23-33-41-572Z",
+    "runId": "idealista-2026-03-28T19-56-50-565Z",
     "source": "idealista",
     "capturedAt": "2026-03-26T08:00:00.000Z",
     "searchUrl": "https://www.idealista.com/en/venta-viviendas/balears-illes/mallorca/",
-    "sourceSnapshotPath": "runs/idealista-2026-03-26T23-33-41-572Z/source-snapshot.json",
+    "sourceSnapshotPath": "runs/idealista-2026-03-28T19-56-50-565Z/source-snapshot.json",
     "sourceSnapshotSha256": "e5a5a6a981c56e878d5304cfba1ccf48024437c2a1b03ceeec9c3144c4716645",
-    "manifestPath": "runs/idealista-2026-03-26T23-33-41-572Z/manifest.json",
-    "normalizedPath": "runs/idealista-2026-03-26T23-33-41-572Z/normalized/listings.ndjson",
-    "auditPath": "runs/idealista-2026-03-26T23-33-41-572Z/audit.ndjson",
+    "manifestPath": "runs/idealista-2026-03-28T19-56-50-565Z/manifest.json",
+    "normalizedPath": "runs/idealista-2026-03-28T19-56-50-565Z/normalized/listings.ndjson",
+    "auditPath": "runs/idealista-2026-03-28T19-56-50-565Z/audit.ndjson",
     "rawRecordCount": 4,
     "normalizedRecordCount": 3,
     "skippedRecordCount": 1
@@ -79,7 +79,7 @@
       "builtAreaSqm": 312,
       "bedrooms": 5,
       "listingUrl": "https://www.idealista.com/en/inmueble/CALVIA-002/",
-      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/CALVIA-002-ffc43334.json",
+      "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/CALVIA-002-ffc43334.json",
       "rawRecordSha256": "ffc43334fad8fc16911a43e33ed6c9cdba326dcc4751e6f7d5c6e8156b6b09b6"
     },
     {
@@ -94,7 +94,7 @@
       "builtAreaSqm": 186,
       "bedrooms": 4,
       "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-003/",
-      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-003-8c510fac.json",
+      "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/PALMA-003-8c510fac.json",
       "rawRecordSha256": "8c510fac7582c1945070051304fd6a984cdd814949967b8e9ced6d7996f21c4b"
     },
     {
@@ -109,7 +109,7 @@
       "builtAreaSqm": 118,
       "bedrooms": 3,
       "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-001/",
-      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-001-81b83723.json",
+      "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/PALMA-001-81b83723.json",
       "rawRecordSha256": "81b83723eff4cc1ace4c13cab09178b9a67d45ae5c33ba4ac4ba6e6d3b60f7f1"
     }
   ],
@@ -126,7 +126,7 @@
       "builtAreaSqm": 118,
       "bedrooms": 3,
       "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-001/",
-      "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-001-81b83723.json",
+      "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/PALMA-001-81b83723.json",
       "rawRecordSha256": "81b83723eff4cc1ace4c13cab09178b9a67d45ae5c33ba4ac4ba6e6d3b60f7f1"
     },
     "comparables": [
@@ -142,7 +142,7 @@
         "builtAreaSqm": 186,
         "bedrooms": 4,
         "listingUrl": "https://www.idealista.com/en/inmueble/PALMA-003/",
-        "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/PALMA-003-8c510fac.json",
+        "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/PALMA-003-8c510fac.json",
         "rawRecordSha256": "8c510fac7582c1945070051304fd6a984cdd814949967b8e9ced6d7996f21c4b",
         "similarityScore": 75.35,
         "pricePerSqmDeltaPct": 16.53,
@@ -163,7 +163,7 @@
         "builtAreaSqm": 312,
         "bedrooms": 5,
         "listingUrl": "https://www.idealista.com/en/inmueble/CALVIA-002/",
-        "rawRecordPath": "runs/idealista-2026-03-26T23-33-41-572Z/raw/CALVIA-002-ffc43334.json",
+        "rawRecordPath": "runs/idealista-2026-03-28T19-56-50-565Z/raw/CALVIA-002-ffc43334.json",
         "rawRecordSha256": "ffc43334fad8fc16911a43e33ed6c9cdba326dcc4751e6f7d5c6e8156b6b09b6",
         "similarityScore": 158.64,
         "pricePerSqmDeltaPct": 6.44,
